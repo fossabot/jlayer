@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+dependencies {
+//    implementation 'com.google.guava:guava:23.0'
+    testImplementation 'junit:junit:4.12'
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+mainClassName = 'javazoom.jl.player.advanced.jlap' 
